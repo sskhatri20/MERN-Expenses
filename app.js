@@ -11,7 +11,7 @@ const updateRoute = require('./routes/updateExpense')
 const deleteRoute = require('./routes/deleteExpense')
  
 //connect to Mongo DB
-mongoose.connect('mongodb+srv://admin:admin@expensecluster.4i2sy.mongodb.net/<dbname>?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://khatri:test@cluster0.aboqw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
 { useUnifiedTopology: true,useNewUrlParser: true })
 
 //logs the incoming api requests.
